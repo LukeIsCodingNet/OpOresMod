@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "oporesmod:ruby_nugget"
+    }
+  },
+  "result": {
+    "item": "oporesmod:ruby",
+    "count": 1
+  }
+}

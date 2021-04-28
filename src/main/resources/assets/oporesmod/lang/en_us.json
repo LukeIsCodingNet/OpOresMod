@@ -1,0 +1,12 @@
+{
+  "itemGroup.op_ores_mod_items": "Op Ores Mod: Items",
+  "itemGroup.op_ores_mod_swords": "Op Ores Mod: Swords",
+  "itemGroup.op_ores_blocks": "Op Ores Mod: Blocks",
+
+  "item.oporesmod.ruby": "Ruby",
+  "item.oporesmod.ruby_nugget": "Ruby Nugget",
+  "item.oporesmod.ruby_sword": "Ruby Sword",
+
+  "block.oporesmod.ruby_block": "Block of Ruby",
+  "block.oporesmod.nether_star_ore": "§eNether Star Ore"
+}
