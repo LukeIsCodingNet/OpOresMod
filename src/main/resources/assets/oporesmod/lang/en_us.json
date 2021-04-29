@@ -6,7 +6,10 @@
   "item.oporesmod.ruby": "Ruby",
   "item.oporesmod.ruby_nugget": "Ruby Nugget",
   "item.oporesmod.ruby_sword": "Ruby Sword",
+  "item.oporesmod.copper_ingot": "Copper Ingot",
+  "item.oporesmod.copper_nugget": "Copper Nugget",
 
   "block.oporesmod.ruby_block": "Block of Ruby",
-  "block.oporesmod.nether_star_ore": "§eNether Star Ore"
+  "block.oporesmod.nether_star_ore": "§eNether Star Ore",
+  "block.oporesmod.copper_block": "Block of Copper"
 }
