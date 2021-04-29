@@ -46,4 +46,8 @@ public class RegisterBlockItems {
     public static final RegistryObject<BlockItem> NETHER_STAR_ORE_ITEM = BLOCK_ITEMS.register("nether_star_ore", () ->
             new BlockItem(RegisterBlocks.NETHER_STAR_ORE.get(), new Item.Properties().tab(RegisterItemGroups.OP_ORES_BLOCKS))
     );
+
+    public static final RegistryObject<BlockItem> COPPER_BLOCK_ITEM = BLOCK_ITEMS.register("copper_block", () ->
+            new BlockItem(RegisterBlocks.COPPER_BLOCK.get(), new Item.Properties().tab(RegisterItemGroups.OP_ORES_BLOCKS))
+    );
 }
