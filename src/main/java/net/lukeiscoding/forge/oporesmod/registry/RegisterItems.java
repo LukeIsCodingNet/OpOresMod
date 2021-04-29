@@ -38,6 +38,8 @@ public class RegisterItems {
     // items...
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", BaseItem::new);
     public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", BaseItem::new);
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", BaseItem::new);
+    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", BaseItem::new);
 
     // swords...
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
