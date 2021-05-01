@@ -50,4 +50,8 @@ public class RegisterBlockItems {
     public static final RegistryObject<BlockItem> COPPER_BLOCK_ITEM = BLOCK_ITEMS.register("copper_block", () ->
             new BlockItem(RegisterBlocks.COPPER_BLOCK.get(), new Item.Properties().tab(RegisterItemGroups.OP_ORES_BLOCKS))
     );
+
+    public static final RegistryObject<BlockItem> COPPER_ORE_BLOCK = BLOCK_ITEMS.register("copper_ore", () ->
+            new BlockItem(RegisterBlocks.COPPER_ORE.get(), new Item.Properties().tab(RegisterItemGroups.OP_ORES_BLOCKS))
+    );
 }

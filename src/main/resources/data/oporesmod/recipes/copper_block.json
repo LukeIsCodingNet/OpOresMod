@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "oporesmod:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "oporesmod:copper_block",
+    "count": 1
+  }
+}

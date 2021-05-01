@@ -1,10 +1,7 @@
 package net.lukeiscoding.forge.oporesmod.registry;
 
 import net.lukeiscoding.forge.oporesmod.OpOresMod;
-import net.lukeiscoding.forge.oporesmod.blocks.CopperBlock;
-import net.lukeiscoding.forge.oporesmod.blocks.NetherStarOre;
-import net.lukeiscoding.forge.oporesmod.blocks.RubyBlock;
-import net.lukeiscoding.forge.oporesmod.blocks.RubyOre;
+import net.lukeiscoding.forge.oporesmod.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -40,4 +37,5 @@ public class RegisterBlocks {
     public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
     public static final RegistryObject<Block> NETHER_STAR_ORE = BLOCKS.register("nether_star_ore", NetherStarOre::new);
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", CopperBlock::new);
+    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", CopperOre::new);
 }
