@@ -35,6 +35,13 @@ public class RegisterItemGroups {
         }
     };
 
+    public static final ItemGroup OP_ORES_TOOLS = new ItemGroup("op_ores_mod_tools") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(RegisterItems.COPPER_PICKAXE.get());
+        }
+    };
+
     public static final ItemGroup OP_ORES_BLOCKS = new ItemGroup("op_ores_blocks") {
         @Override
         public ItemStack makeIcon() {
