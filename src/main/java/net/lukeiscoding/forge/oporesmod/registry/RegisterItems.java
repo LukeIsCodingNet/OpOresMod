@@ -4,6 +4,7 @@ import net.lukeiscoding.forge.oporesmod.OpOresMod;
 import net.lukeiscoding.forge.oporesmod.items.BaseItem;
 import net.lukeiscoding.forge.oporesmod.tools.OpOresModItemTier;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -44,5 +45,10 @@ public class RegisterItems {
     // swords...
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
             new SwordItem(OpOresModItemTier.RUBY_SWORD, 0, 0, new Item.Properties().tab(RegisterItemGroups.OP_ORES_SWORDS).setNoRepair())
+    );
+
+    // pickaxes...
+    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () ->
+            new PickaxeItem(OpOresModItemTier.COPPER_PICKAXE, 0, 0, new Item.Properties().tab(RegisterItemGroups.OP_ORES_TOOLS).setNoRepair())
     );
 }
