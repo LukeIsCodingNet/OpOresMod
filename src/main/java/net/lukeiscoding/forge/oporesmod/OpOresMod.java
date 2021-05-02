@@ -3,6 +3,9 @@ package net.lukeiscoding.forge.oporesmod;
 import net.lukeiscoding.forge.oporesmod.blocks.blockitems.RegisterBlockItems;
 import net.lukeiscoding.forge.oporesmod.registry.RegisterBlocks;
 import net.lukeiscoding.forge.oporesmod.registry.RegisterItems;
+import net.lukeiscoding.forge.oporesmod.world.OreGeneration;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -47,6 +50,9 @@ public class OpOresMod {
 
         // call the registerBlockItems method to register the block items.
         RegisterBlockItems.registerBlockItems();
+
+        // add a event listener to the Minecraft Forge event bus to generate ores.
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }
 
     // register event listeners.
