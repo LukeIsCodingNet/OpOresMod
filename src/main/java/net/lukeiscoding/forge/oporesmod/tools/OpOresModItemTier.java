@@ -34,6 +34,11 @@ public enum OpOresModItemTier implements IItemTier {
     // swords...
     RUBY_SWORD(3, 2000, 3.5f, 12.0f, 40, () -> {
         return Ingredient.of(RegisterItems.RUBY_SWORD.get());
+    }),
+
+    // pickaxes
+    COPPER_PICKAXE(2, 700, 15.0f, 8.0f, 60, () -> {
+        return Ingredient.of(RegisterItems.COPPER_PICKAXE.get());
     });
 
     private final int harvestLevel;
