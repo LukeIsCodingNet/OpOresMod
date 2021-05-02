@@ -8,8 +8,10 @@
   "item.oporesmod.ruby_sword": "Ruby Sword",
   "item.oporesmod.copper_ingot": "Copper Ingot",
   "item.oporesmod.copper_nugget": "Copper Nugget",
+  "item.oporesmod.copper_pickaxe": "Copper Pickaxe",
 
   "block.oporesmod.ruby_block": "Block of Ruby",
   "block.oporesmod.nether_star_ore": "§eNether Star Ore",
-  "block.oporesmod.copper_block": "Block of Copper"
+  "block.oporesmod.copper_block": "Block of Copper",
+  "block.oporesmod.copper_ore": "Copper Ore"
 }
